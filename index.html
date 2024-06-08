@@ -6,8 +6,28 @@
     <title>Document</title>
     <meta name="description" content="" />
     <meta name="author" content="Victory Chibueze" />
+    <link rel="stylesheet" href="styles/base.css" />
   </head>
   <body>
-    <main></main>
+    <main>
+      <section class="hero">
+        <picture>
+          <source media="(max-width:500px )" srcset="images/image-small.webp" />
+          <source
+            media="(max-width: 1000px)"
+            srcset="images/image-medium.webp"
+          />
+          <img
+            src="images/image-large.webp"
+            alt="image of a female athlete running the tracks"
+            height="500"
+            width="750"
+          />
+        </picture>
+      </section>
+      <div class="overlay">
+        <h1>Who are you</h1>
+      </div>
+    </main>
   </body>
 </html>
