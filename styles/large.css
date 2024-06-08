@@ -1,0 +1,9 @@
+@media only screen and (min-width: 40rem) {
+  .overlay h1 {
+    font-size: 8rem;
+    letter-spacing: 2.5px;
+  }
+  .time-box h3 {
+    font-size: 2.5rem;
+  }
+}
